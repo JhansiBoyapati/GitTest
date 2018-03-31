@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[in properties qa loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16569" started-at="2018-03-27T00:03:22Z" finished-at="2018-03-27T00:03:38Z">
+    <groups>
+      <group name="1">
+        <method signature="SmokeTest.alogin_Positive()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.login_Negative()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="login_Negative" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.searchProduct()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="searchProduct" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 1 -->
+      <group name="sanity">
+        <method signature="SmokeTest.alogin_Positive()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.login_Negative()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="login_Negative" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.searchProduct()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="searchProduct" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="16569" started-at="2018-03-27T00:03:22Z" finished-at="2018-03-27T00:03:38Z">
+      <class name="com.presta.tests.SmokeTest">
+        <test-method status="PASS" signature="loginToAPP()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="loginToAPP" is-config="true" duration-ms="15590" started-at="2018-03-26T19:03:06Z" finished-at="2018-03-26T19:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAPP -->
+        <test-method status="PASS" signature="alogin_Positive()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="alogin_Positive" duration-ms="12" started-at="2018-03-26T19:03:22Z" description="login_Positive" finished-at="2018-03-26T19:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin_Positive -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="navigateToHome" is-config="true" duration-ms="1488" started-at="2018-03-26T19:03:22Z" finished-at="2018-03-26T19:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="login_Negative()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="login_Negative" duration-ms="8298" started-at="2018-03-26T19:03:23Z" description="login_Negative" finished-at="2018-03-26T19:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="navigateToHome" is-config="true" duration-ms="1680" started-at="2018-03-26T19:03:32Z" finished-at="2018-03-26T19:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="searchProduct" duration-ms="3650" started-at="2018-03-26T19:03:33Z" description="searchProduct" finished-at="2018-03-26T19:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="navigateToHome" is-config="true" duration-ms="1416" started-at="2018-03-26T19:03:37Z" finished-at="2018-03-26T19:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.presta.tests.SmokeTest@41fecb8b]" name="closeBrowser" is-config="true" duration-ms="858" started-at="2018-03-26T19:03:39Z" finished-at="2018-03-26T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.presta.tests.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
